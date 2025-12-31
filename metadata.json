@@ -1,0 +1,8 @@
+{
+  "name": "Workflow",
+  "description": "Eine hochmoderne Projektorganisations-Plattform für die Immobilienbewertung mit Fokus auf Workflow-Effizienz, Aufgabenverwaltung und Mandanten-Tracking.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ]
+}
