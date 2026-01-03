@@ -14,12 +14,7 @@
             padding: 0;
             overflow-x: hidden;
         }
-        /* Verbessert die Lesbarkeit bei markiertem Text (Maus-Selektion) */
         ::selection {
-            background-color: #2563eb;
-            color: #ffffff;
-        }
-        ::-moz-selection {
             background-color: #2563eb;
             color: #ffffff;
         }
@@ -27,14 +22,16 @@
 <script type="importmap">
 {
   "imports": {
-    "react-dom/": "https://esm.sh/react-dom@^19.2.3/",
+    "react": "https://esm.sh/react@^19.2.3",
     "react/": "https://esm.sh/react@^19.2.3/",
-    "react": "https://esm.sh/react@^19.2.3"
+    "react-dom": "https://esm.sh/react-dom@^19.2.3",
+    "react-dom/": "https://esm.sh/react-dom@^19.2.3/"
   }
 }
 </script>
 </head>
 <body class="bg-gray-50 text-gray-900">
     <div id="root"></div>
+    <script type="module" src="index.tsx"></script>
 </body>
 </html>
